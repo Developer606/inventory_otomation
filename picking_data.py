@@ -3,7 +3,7 @@ import os
 import time
 import re
 
-gc =    gspread.service_account(filename="C:\\Users\\kisho\\Downloads\\inventory_otomation\\inventorysmanagement-4593df092ae4.json")
+gc =    gspread.service_account(filename="inventorysmanagement-4593df092ae4.json")
 worksheet =gc.open_by_key("1ttchdhSP_dNQ6hgT-B2yQCDwfN23kUcv_lcZps0KNQk")
 surrent_sheet = worksheet.worksheet("RAW DATA")
 
